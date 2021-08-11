@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+
+        <div id="timer" class="rounded-circle  w-25 h-25 mx-auto my-5 d-flex justify-content-center">
+           
+        </div>
+        <section class="container  w-75 mx-auto mt-5 mb-0 p-5">
+            <h1 class="lead text-muted text-center">My To Do List</h1>
+                    <div class="input-group mb-0 ">
+                        <input type="text" id="listInput" class="form-control" placeholder="List Name" pattern="[a-zA-Z0-9]{4,}" title="This Input Must contains english letters or digits only " required aria-label="Recipient's username" aria-describedby="basic-addon2">
+                        <div class="input-group-append">
+                          <button  class="input-group-text" id="basic-addon2">Add To List</button>
+                        </div>
+                    </div>
+                    <!-- <span class="error alert alert-danger">Erre</span> -->
+              <div class="lists paretn w-100  mt-0 table-hover table table-borderless table-dark" id="lists">
+              </div>
+            <!-- </div> -->
+        </section>
+        <script src="js/script.js"></script>
+    </body>
+</html>

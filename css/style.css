@@ -1,0 +1,17 @@
+.delete{
+    cursor: pointer;
+}
+.clearfix{
+    clear: both;
+   
+}
+#timer{
+    border-radius: 50% !important;
+    background: aquamarine;
+    height: 100px !important;
+    width: 100px !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center;
+    text-align: center;
+}
